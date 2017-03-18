@@ -1,9 +1,8 @@
 # IPK Project 1
-
 ## NAME
 ftrest - client program
-ftrestd - server program
 
+ftrestd - server program
 ## SYNOPSIS
 ftrest COMMAND REMOTE-PATH \[LOCAL-PATH\]
 ftrestd \[-r ROOT-FOLDER\] \[-p PORT\]
