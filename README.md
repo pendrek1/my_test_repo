@@ -40,9 +40,9 @@ a **COMMAND** (meaning it can send request and server executes).
     **LOCAL-PATH** is not used with lst.
 
 **REMOTE-PATH**
-    Must have exact form: *http://hostname:port/user/path*
-    Must contin all mentioned parts!
-    Only port is optional. Default port number is 6677.
+Must have exact form: *http://hostname:port/user/path*
+Must contin all mentioned parts!
+Only port is optional. Default port number is 6677.
 
 **LOCAL-PATH**
     Normal absolute or relative path to a file.
