@@ -118,7 +118,7 @@ Other causes of error caught by server.
 
 Commands: *all*.
 
-# AUTOR
+# AUTHOR
 Written by Antonin Vlach.
 
 # COPYRIGTH
