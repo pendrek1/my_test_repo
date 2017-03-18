@@ -41,9 +41,9 @@ Make new directory on server specified by `REMOTE-PATH`.
 `LOCAL-PATH` is not used with lst.
 
 ### REMOTE-PATH
-Must have exact form: `http://hostname:port/user/path`
+Must have exact form: `http://hostname:port/user/path`.
 
-Must contin all mentioned parts!
+Must contain all mentioned parts!
 
 Only port is optional. Default port number is 6677.
 
@@ -81,22 +81,22 @@ Errors from server can be following:
 ### Not a directory
 `REMOTE-PATH` should refer to a directory but refering to some other type of object.
 
-Commands: `lst`, `rmd`, `mkd` (parent not a dir), `put` (parent not a dir)
+Commands: `lst`, `rmd`, `mkd` (parent not a dir), `put` (parent not a dir).
 
 ### Directory not found
 Directory with `REMOTE-PATH` was not found.
 
-Commands: `lst`, `rmd`, `mkd` (parent not found), `put` (parent not found)
+Commands: `lst`, `rmd`, `mkd` (parent not found), `put` (parent not found).
 
 ### Directory not empty
 Directory with `REMOTE-PATH` is not empty. Contains some objects.
 
-Commands: `rmd`
+Commands: `rmd`.
 
 ### Already exists
 `REMOTE-PATH` refers to existing object, so that cannot be created.
 
-Commands: `put`, `mkd`
+Commands: `put`, `mkd`.
 
 ### Not a file
 `REMOTE-PATH` should refer to a file but refering to some other type of object.
@@ -111,15 +111,15 @@ Commands: `del`, `get`.
 ### User account not found
 User specified by `REMOTE-PATH` does not exist on server.
 
-Commands: *all*
+Commands: *all*.
 
 ### Unknown error
 Other causes of error caught by server.
 
-Commands: *all*
+Commands: *all*.
 
 # AUTOR
-Written by Antonin Vlach
+Written by Antonin Vlach.
 
 # COPYRIGTH
 Writen as a project at Faculty of Information Technologies of Brno University of technology.
@@ -129,4 +129,4 @@ Written in 2017 in my second year of bachelor studies.
 # SEE ALSO
 [Task](https://wis.fit.vutbr.cz/FIT/st/course-sl.php?id=610264&item=62126) of the project.
 
-IPK - computer comunications and networks. Course's [synopsis](https://www.fit.vutbr.cz/study/courses/index.php?id=11465)
+IPK - computer comunications and networks. Course's [synopsis](https://www.fit.vutbr.cz/study/courses/index.php?id=11465).
